@@ -78,10 +78,60 @@ dayOfWeek = "monday"
 # else:
 #     print("have some tea instead")
 
-if (stateOfBeing == "tired"):
-    print("I am tired")
+# if (stateOfBeing == "tired"):
+#     print("I am tired")
 
-if (dayOfWeek.upper() == "Monday".upper()):
-    print("It's a Monday")
+# if (dayOfWeek.upper() == "Monday".upper()):
+#     print("It's a Monday")
 
-print("Have a nice day!")
+# print("Have a nice day!")
+
+# loop ----
+# for 
+# while 
+
+nameOfDay = "T"
+
+# for x in nameOfDay:
+#     print(x)
+# print("done with loop")
+
+# monthOfYear = 10
+
+# Best for when you know the exact number of times you want to loop
+# for x in range(0, monthOfYear):
+#     print(x)
+# print("done with loop")
+
+# infinite loop
+# while numberOfDay < 10:
+#     print("looping")
+
+# Better for executing loops based on conditions
+i = 0
+print(nameOfDay)
+while nameOfDay != "Tuesday":
+    if (nameOfDay == "T"):
+        nameOfDay += "u"
+        print(nameOfDay)
+    elif (nameOfDay == "Tu"):
+        nameOfDay += "e"
+        print(nameOfDay)
+    elif (nameOfDay == "Tue"):
+        nameOfDay += "s"
+        print(nameOfDay)
+    elif (nameOfDay == "Tues"):
+        nameOfDay += "d"
+        print(nameOfDay)
+    elif (nameOfDay == "Tuesd"):
+        nameOfDay += "a"
+        print(nameOfDay)
+    elif (nameOfDay == "Tuesda"):
+        nameOfDay += "y"
+        print(nameOfDay)
+    else:
+        nameOfDay = "Tuesday"
+        print(nameOfDay)
+    i += 1
+
+print(i)
