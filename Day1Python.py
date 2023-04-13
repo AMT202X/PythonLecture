@@ -90,7 +90,7 @@ dayOfWeek = "monday"
 # for 
 # while 
 
-nameOfDay = "T"
+# nameOfDay = "T"
 
 # for x in nameOfDay:
 #     print(x)
@@ -108,30 +108,58 @@ nameOfDay = "T"
 #     print("looping")
 
 # Better for executing loops based on conditions
-i = 0
-print(nameOfDay)
-while nameOfDay != "Tuesday":
-    if (nameOfDay == "T"):
-        nameOfDay += "u"
-        print(nameOfDay)
-    elif (nameOfDay == "Tu"):
-        nameOfDay += "e"
-        print(nameOfDay)
-    elif (nameOfDay == "Tue"):
-        nameOfDay += "s"
-        print(nameOfDay)
-    elif (nameOfDay == "Tues"):
-        nameOfDay += "d"
-        print(nameOfDay)
-    elif (nameOfDay == "Tuesd"):
-        nameOfDay += "a"
-        print(nameOfDay)
-    elif (nameOfDay == "Tuesda"):
-        nameOfDay += "y"
-        print(nameOfDay)
-    else:
-        nameOfDay = "Tuesday"
-        print(nameOfDay)
-    i += 1
+# i = 0
+# print(nameOfDay)
+# while nameOfDay != "Tuesday":
+#     if (nameOfDay == "T"):
+#         nameOfDay += "u"
+#         print(nameOfDay)
+#     elif (nameOfDay == "Tu"):
+#         nameOfDay += "e"
+#         print(nameOfDay)
+#     elif (nameOfDay == "Tue"):
+#         nameOfDay += "s"
+#         print(nameOfDay)
+#     elif (nameOfDay == "Tues"):
+#         nameOfDay += "d"
+#         print(nameOfDay)
+#     elif (nameOfDay == "Tuesd"):
+#         nameOfDay += "a"
+#         print(nameOfDay)
+#     elif (nameOfDay == "Tuesda"):
+#         nameOfDay += "y"
+#         print(nameOfDay)
+#     else:
+#         nameOfDay = "Tuesday"
+#         print(nameOfDay)
+#     i += 1
 
-print(i)
+# print(i)
+#              0  1  2  3  4  5
+myFirstList = [1, 2, 3, 4, 5, 6]
+
+# print(len(myFirstList))
+
+# for i in range(len(myFirstList)):
+#     print(i)
+# print(myFirstList[0])
+
+# list
+myFirstList.append("string")
+
+# [1, 2, 3, 4, 5, 6, "string"]
+# for i in myFirstList:
+#         print(str(i).upper())
+
+print(myFirstList[1:6])
+
+# Tuple - immutable list
+myFirstTuple = (1, 2, 3, 4, 5, 6)
+
+myFirstList[0] += 1
+
+print(myFirstList)
+
+tupleMyFirstList = tuple(myFirstList)
+print(tupleMyFirstList)
+tupleMyFirstList[0] = 0
