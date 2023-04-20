@@ -90,7 +90,7 @@ display_names()
 
 # Puts two text files inside of the S3 bucket
 put_item('test.txt', 'bvanek-demo')
-put_item('ThisFileSucks.txt', 'bvanek-demo')
+put_item('NewFile.txt', 'bvanek-demo')
 
 # Display a particular item in our S3 bucket
 get_item("test.txt", "bvanek-demo")
@@ -99,12 +99,12 @@ get_item("test.txt", "bvanek-demo")
 list_items("bvanek-demo")
 
 # Delete a particular item in our S3 bucket
-delete_item("ThisFileSucks.txt", "bvanek-demo")
+delete_item("NewFile.txt", "bvanek-demo")
 delete_item("test.txt", "bvanek-demo")
 
 # Puts two text files inside of the S3 bucket
 put_item('test.txt', 'bvanek-demo')
-put_item('ThisFileSucks.txt', 'bvanek-demo')
+put_item('NewFile.txt', 'bvanek-demo')
 
 # Empties a bucket of all the files inside of the S3 bucket
 empty_bucket('bvanek-demo')
