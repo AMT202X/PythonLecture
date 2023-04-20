@@ -151,15 +151,18 @@ myFirstList.append("string")
 # for i in myFirstList:
 #         print(str(i).upper())
 
-print(myFirstList[1:6])
+# print(myFirstList[1:6])
 
 # Tuple - immutable list
-myFirstTuple = (1, 2, 3, 4, 5, 6)
+# myFirstTuple = (1, 2, 3, 4, 5, 6)
 
-myFirstList[0] += 1
+# myFirstList[0] += 1
 
-print(myFirstList)
+# print(myFirstList)
 
-tupleMyFirstList = tuple(myFirstList)
-print(tupleMyFirstList)
-tupleMyFirstList[0] = 0
+# tupleMyFirstList = tuple(myFirstList)
+# print(tupleMyFirstList)
+# tupleMyFirstList[0] = 0
+
+result = input("What is your score?")
+print(result)
